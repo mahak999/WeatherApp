@@ -1,0 +1,4 @@
+Requirements:
+1. Node
+2. Node's express module
+3. Node's body-parser module
