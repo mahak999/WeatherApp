@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Weather App</title>
+    <!-- Google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Gowun+Batang:wght@700&display=swap" rel="stylesheet">
+
+    <!-- CSS styles -->
+
+    <style media="screen">
+      body{
+        background-color: #B5EAEA;
+        font-family: 'Gowun Batang', serif;
+      }
+      h1{
+        margin-top: 0.7em;
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        font-size: 6.2em;
+        color: #EC4646;
+      }
+
+      form{
+        margin-left: 5em;
+      }
+
+      form label{
+        font-size: 3em;
+        margin: 1.5em auto 1.5em;
+
+      }
+
+      input{
+        margin-bottom: 2.2em;
+      }
+
+      .submit{
+        background-color: #EC4646;
+        height: 2.5em;
+        width: 7em;
+        color: white;
+        font-size: 1em;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <h1>Weather App</h1>
+    <form class="" action="/" method="post">
+      <label for="cityInput">City Name</label>   <br>
+      <input id = "cityInput" type="text" name="cityName">
+      <br>
+
+      <label for="stateCodeInput">Province ISO Code</label>   <br>
+      <input id = "stateCodeInput" type="text" name="stateCode">
+      <br>
+
+      <label for="countryCodeInput">Country ISO code</label>   <br>
+      <input id = "countryCodeInput" type="text" name="countryCode">
+      <br>
+
+      <label for="unitsInput">Units for temperature[Celcius or Fahrenheit]</label>   <br>
+      <input id = "unitsInput" type="text" name="units">
+      <br>
+
+
+      <input class="submit" type="submit" name="submit_button" value="Submit"></input>
+    </form>
+  </body>
+</html>
